@@ -4,7 +4,7 @@ function evenPrinter($start, $end, $step){
     $start++;
     for ($i = $start; $i <= $end; $i += $step) {
         if ($i % 2 === 0) {
-            echo $i."for \n";
+            echo $i."\n";
         }
     }
 }
@@ -18,7 +18,7 @@ function evenPrinterWithWhile($start, $end, $step){
     $x = $start;
     while ($x <= $end) {
         if ($x % 2 === 0) {
-            echo $x . "while \n";
+            echo $x . "\n";
         }
         $x+=$step;
     }
@@ -33,7 +33,7 @@ function evenPrinterWithDowhileLoop($start, $end, $step){
     $i = $start;
     do {
         if ($i % 2 === 0) {
-            echo $i . "do \n";
+            echo $i . "\n";
         }
         $i += $step;
     } while ($i <= $end);
